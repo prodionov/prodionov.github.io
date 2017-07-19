@@ -1,0 +1,122 @@
+header {
+    height: 10em;
+    padding: 30px 170px 70px 170px;
+    margin: 0px auto;
+    background: #005689;
+    color:floralwhite;
+    overflow: hidden;
+    border: solid;
+}
+
+.floating-box {
+    display: inline-flex;
+    border-style: solid;
+    height: 10em;
+}
+
+#left {
+    display: inline-flex;;
+    width: calc(40%);
+    text-align: center;
+    display: inline-flex;
+    /*border-style: solid;*/
+}
+
+#left h1 {
+    font-family:  serif ;
+    font-size: 350%;
+    padding-left: 50px;
+    padding-bottom: -10px;
+    text-align: bottom-left;
+    line-height: 30px;
+}
+
+#addition{
+    font-size: 45%;
+    font-family: 'Dancing Script';
+    margin-left: 5.5em;
+    padding-top: -4em;
+    display: inline-flex;
+
+}
+
+#right {
+    float: right;
+    display: inline-flex;
+    width: calc(40%);
+    /*border-style: solid;*/
+}
+
+#right img {
+    border-radius: 80%;
+    /*padding: 10px 10px 10px 10px;*/
+    /*padding-right: 150px;*/
+    /*padding-top: -100px;*/
+    height: 150px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00456e;
+  padding-left: 80px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #c0cad8;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.cont {
+        padding: 70px 200px 70px 200px;
+}
+
+.headline {
+    color: #db7013;
+}
+
+footer {
+    height: 8em;
+    padding: 30px 170px 70px 170px;
+    background: #f5f5f5;
+    color:black;
+    border-style: solid;
+}
+
+.btn-group a{
+    border: 1px;
+    display: block;
+}
+
+#links {
+    text-align: top-left;
+    padding: 10px;
+    width: calc(15%);
+}
+
+#address {
+    width: calc(40%);
+    text-align: left;
+    padding: 10px;
+}
+
+#glyphicons {
+    width: calc(20%);
+    text-align: top-right;
+    /*padding: 10px;*/
+    display: block;
+}
