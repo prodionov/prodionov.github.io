@@ -45,13 +45,13 @@ header {
 
 #right img {
     border-radius: 80%;
-    height: 150px;
+    height: 200px;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #00456e;
-  padding-left: 80px;
+  padding-left: 170px;
 }
 
 .topnav a {
@@ -98,10 +98,6 @@ footer {
     color:black;
 }
 
-.btn-group a{
-    border: 1px;
-    display: block;
-}
 
 #links {
     text-align: top-left;
