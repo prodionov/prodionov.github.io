@@ -136,3 +136,12 @@ footer .social .fa{
     text-align: top-left;
     width: calc(50%);
 }
+
+.cont a:link{
+    text-decoration: none;
+    color: #7a4d04;
+}
+
+a:hover {
+    text-decoration: underline;
+}
